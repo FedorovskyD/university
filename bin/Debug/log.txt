@@ -1,0 +1,522 @@
+2024-01-31 02:03:33.181 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет инженерии
+                              Adress: ул. Инженерная, 1
+                              Telephone: 123-456-7890
+2024-01-31 02:03:33.195 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет гуманитарных наук
+                              Adress: ул. Гуманитарная, 2
+                              Telephone: 987-654-3210
+2024-01-31 02:03:33.195 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет медицины
+                              Adress: ул. Здоровья, 3
+                              Telephone: 555-123-4567
+2024-01-31 02:03:33.195 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет экономики
+                              Adress: ул. Финансовая, 4
+                              Telephone: 111-222-3333
+2024-01-31 02:03:33.195 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет искусств
+                              Adress: ул. Художественная, 5
+                              Telephone: 999-888-7777
+2024-01-31 02:03:33.348 [inf] Добавлен новый объект Department.
+                              Name: Информационные технологии
+                              FacultyId: 1
+2024-01-31 02:03:33.348 [inf] Добавлен новый объект Department.
+                              Name: Литература
+                              FacultyId: 2
+2024-01-31 02:03:33.348 [inf] Добавлен новый объект Department.
+                              Name: Хирургия
+                              FacultyId: 3
+2024-01-31 02:03:33.348 [inf] Добавлен новый объект Department.
+                              Name: Психология
+                              FacultyId: 2
+2024-01-31 02:03:33.348 [inf] Добавлен новый объект Department.
+                              Name: Экономика
+                              FacultyId: 4
+2024-01-31 02:03:33.435 [inf] Добавлен новый объект Teacher.
+                              Name: Иван
+                              LastName: Иванов
+                              Address: ул. Пушкина, 10
+                              Telephone: 111-222-3333
+                              DepartmentID: 1
+2024-01-31 02:03:33.435 [inf] Добавлен новый объект Teacher.
+                              Name: Елена
+                              LastName: Петрова
+                              Address: ул. Толстого, 5
+                              Telephone: 444-555-6666
+                              DepartmentID: 2
+2024-01-31 02:03:33.435 [inf] Добавлен новый объект Teacher.
+                              Name: Александр
+                              LastName: Сидоров
+                              Address: ул. Здоровья, 7
+                              Telephone: 777-888-9999
+                              DepartmentID: 3
+2024-01-31 02:03:33.435 [inf] Добавлен новый объект Teacher.
+                              Name: Мария
+                              LastName: Кузнецова
+                              Address: ул. Психологическая, 3
+                              Telephone: 123-456-7890
+                              DepartmentID: 4
+2024-01-31 02:03:33.435 [inf] Добавлен новый объект Teacher.
+                              Name: Владимир
+                              LastName: Смирнов
+                              Address: ул. Экономическая, 8
+                              Telephone: 555-666-7777
+                              DepartmentID: 5
+2024-01-31 02:03:43.011 [inf] Удален объект Teacher_9FA3B3F2A7DA2DCC356540A95CB1F5E06CE6CB5CEA948912505790F07061478E. Id=1
+2024-01-31 02:03:43.011 [inf] Удален объект Department_0EF651038D4C4F7795D480298E095DFAB6F40F35AB02796A46D0CDA625284376. Id=1
+2024-01-31 02:03:43.011 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=1
+2024-01-31 02:03:43.011 [inf] Удален объект Teacher_9FA3B3F2A7DA2DCC356540A95CB1F5E06CE6CB5CEA948912505790F07061478E. Id=2
+2024-01-31 02:03:43.011 [inf] Удален объект Department_0EF651038D4C4F7795D480298E095DFAB6F40F35AB02796A46D0CDA625284376. Id=2
+2024-01-31 02:03:43.011 [inf] Удален объект Teacher_9FA3B3F2A7DA2DCC356540A95CB1F5E06CE6CB5CEA948912505790F07061478E. Id=4
+2024-01-31 02:03:43.011 [inf] Удален объект Department_0EF651038D4C4F7795D480298E095DFAB6F40F35AB02796A46D0CDA625284376. Id=4
+2024-01-31 02:03:43.011 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=2
+2024-01-31 02:03:43.011 [inf] Удален объект Teacher_9FA3B3F2A7DA2DCC356540A95CB1F5E06CE6CB5CEA948912505790F07061478E. Id=3
+2024-01-31 02:03:43.011 [inf] Удален объект Department_0EF651038D4C4F7795D480298E095DFAB6F40F35AB02796A46D0CDA625284376. Id=3
+2024-01-31 02:03:43.011 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=3
+2024-01-31 02:03:43.011 [inf] Удален объект Teacher_9FA3B3F2A7DA2DCC356540A95CB1F5E06CE6CB5CEA948912505790F07061478E. Id=5
+2024-01-31 02:03:43.011 [inf] Удален объект Department_0EF651038D4C4F7795D480298E095DFAB6F40F35AB02796A46D0CDA625284376. Id=5
+2024-01-31 02:03:43.011 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=4
+2024-01-31 02:03:43.011 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=5
+2024-01-31 02:09:02.388 [inf] Добавлен новый объект Faculty.
+                              Name: sd
+                              Adress: sd
+                              Telephone: 
+2024-01-31 02:09:07.800 [inf] Добавлен новый объект Faculty.
+                              Name: sd
+                              Adress: sd
+                              Telephone: 
+2024-01-31 02:25:30.781 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=6
+2024-01-31 02:25:30.795 [inf] Удален объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A. Id=7
+2024-01-31 02:42:07.183 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет инженерии
+                              Adress: ул. Инженерная, 1
+                              Telephone: 123-456-7890
+2024-01-31 02:42:07.198 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет гуманитарных наук
+                              Adress: ул. Гуманитарная, 2
+                              Telephone: 987-654-3210
+2024-01-31 02:42:07.198 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет медицины
+                              Adress: ул. Здоровья, 3
+                              Telephone: 555-123-4567
+2024-01-31 02:42:07.198 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет экономики
+                              Adress: ул. Финансовая, 4
+                              Telephone: 111-222-3333
+2024-01-31 02:42:07.198 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет искусств
+                              Adress: ул. Художественная, 5
+                              Telephone: 999-888-7777
+2024-01-31 02:42:07.404 [inf] Добавлен новый объект Department.
+                              Name: Информационные технологии
+                              FacultyId: 1
+2024-01-31 02:42:07.404 [inf] Добавлен новый объект Department.
+                              Name: Литература
+                              FacultyId: 2
+2024-01-31 02:42:07.404 [inf] Добавлен новый объект Department.
+                              Name: Хирургия
+                              FacultyId: 3
+2024-01-31 02:42:07.404 [inf] Добавлен новый объект Department.
+                              Name: Психология
+                              FacultyId: 2
+2024-01-31 02:42:07.404 [inf] Добавлен новый объект Department.
+                              Name: Экономика
+                              FacultyId: 4
+2024-01-31 02:42:07.511 [inf] Добавлен новый объект Teacher.
+                              Name: Иван
+                              LastName: Иванов
+                              Address: ул. Пушкина, 10
+                              Telephone: 111-222-3333
+                              DepartmentID: 1
+2024-01-31 02:42:07.511 [inf] Добавлен новый объект Teacher.
+                              Name: Елена
+                              LastName: Петрова
+                              Address: ул. Толстого, 5
+                              Telephone: 444-555-6666
+                              DepartmentID: 2
+2024-01-31 02:42:07.511 [inf] Добавлен новый объект Teacher.
+                              Name: Александр
+                              LastName: Сидоров
+                              Address: ул. Здоровья, 7
+                              Telephone: 777-888-9999
+                              DepartmentID: 3
+2024-01-31 02:42:07.511 [inf] Добавлен новый объект Teacher.
+                              Name: Мария
+                              LastName: Кузнецова
+                              Address: ул. Психологическая, 3
+                              Telephone: 123-456-7890
+                              DepartmentID: 4
+2024-01-31 02:42:07.511 [inf] Добавлен новый объект Teacher.
+                              Name: Владимир
+                              LastName: Смирнов
+                              Address: ул. Экономическая, 8
+                              Telephone: 555-666-7777
+                              DepartmentID: 5
+2024-01-31 04:55:40.779 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет инженерии
+                              Adress: ул. Инженерная, 1
+                              Telephone: 123-456-7890
+2024-01-31 04:55:40.791 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет гуманитарных наук
+                              Adress: ул. Гуманитарная, 2
+                              Telephone: 987-654-3210
+2024-01-31 04:55:40.791 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет медицины
+                              Adress: ул. Здоровья, 3
+                              Telephone: 555-123-4567
+2024-01-31 04:55:40.791 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет экономики
+                              Adress: ул. Финансовая, 4
+                              Telephone: 111-222-3333
+2024-01-31 04:55:40.791 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет искусств
+                              Adress: ул. Художественная, 5
+                              Telephone: 999-888-7777
+2024-01-31 04:55:40.947 [inf] Добавлен новый объект Department.
+                              Name: Информационные технологии
+                              FacultyId: 1
+2024-01-31 04:55:40.947 [inf] Добавлен новый объект Department.
+                              Name: Литература
+                              FacultyId: 2
+2024-01-31 04:55:40.947 [inf] Добавлен новый объект Department.
+                              Name: Хирургия
+                              FacultyId: 3
+2024-01-31 04:55:40.947 [inf] Добавлен новый объект Department.
+                              Name: Психология
+                              FacultyId: 2
+2024-01-31 04:55:40.947 [inf] Добавлен новый объект Department.
+                              Name: Экономика
+                              FacultyId: 4
+2024-01-31 04:55:41.011 [inf] Добавлен новый объект Teacher.
+                              Name: Иван
+                              LastName: Иванов
+                              Address: ул. Пушкина, 10
+                              Telephone: 111-222-3333
+                              DepartmentID: 1
+2024-01-31 04:55:41.011 [inf] Добавлен новый объект Teacher.
+                              Name: Елена
+                              LastName: Петрова
+                              Address: ул. Толстого, 5
+                              Telephone: 444-555-6666
+                              DepartmentID: 2
+2024-01-31 04:55:41.011 [inf] Добавлен новый объект Teacher.
+                              Name: Александр
+                              LastName: Сидоров
+                              Address: ул. Здоровья, 7
+                              Telephone: 777-888-9999
+                              DepartmentID: 3
+2024-01-31 04:55:41.011 [inf] Добавлен новый объект Teacher.
+                              Name: Мария
+                              LastName: Кузнецова
+                              Address: ул. Психологическая, 3
+                              Telephone: 123-456-7890
+                              DepartmentID: 4
+2024-01-31 04:55:41.011 [inf] Добавлен новый объект Teacher.
+                              Name: Владимир
+                              LastName: Смирнов
+                              Address: ул. Экономическая, 8
+                              Telephone: 555-666-7777
+                              DepartmentID: 5
+2024-01-31 06:25:28.790 [inf] Объект Department_0EF651038D4C4F7795D480298E095DFAB6F40F35AB02796A46D0CDA625284376 с Id=1 был изменен.
+                              Name: Информационные технологии => Информационные технологиит
+2024-01-31 06:26:04.734 [inf] Добавлен новый объект Department.
+                              Name: т
+                              FacultyId: 3
+2024-01-31 07:10:10.578 [inf] Объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A с Id=1 был изменен.
+                              Telephone: 123-456-7890 => 
+2024-01-31 07:24:39.829 [inf] Объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A с Id=1 был изменен.
+                              Telephone:  =>  +375292488182
+2024-01-31 07:32:03.368 [err] Произошла ошибка при запуске приложения.
+System.ArgumentException: Недопустимое значение ключа "integrated security".
+   в System.Data.Common.DbConnectionOptions.ConvertValueToIntegratedSecurityInternal(String stringValue)
+   в System.Data.Common.DbConnectionOptions.ConvertValueToIntegratedSecurity()
+   в System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   в System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   в System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   в System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<SetConnectionString>b__8_0(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   в System.Data.Entity.Infrastructure.SqlConnectionFactory.CreateConnection(String nameOrConnectionString)
+   в System.Data.Entity.Infrastructure.LocalDbConnectionFactory.CreateConnection(String nameOrConnectionString)
+   в System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   в System.Data.Entity.Internal.LazyInternalConnection.get_Connection()
+   в System.Data.Entity.Internal.LazyInternalContext.get_Connection()
+   в System.Data.Entity.Database.Exists()
+   в University.Program.Main() в C:\Users\dmitr\source\repos\University\Program.cs:строка 31
+2024-01-31 07:36:54.808 [err] Произошла ошибка при загрузке данных: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.
+Login failed for user ''.
+2024-01-31 08:16:42.201 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет инженерии
+                              Adress: ул. Инженерная, 1
+                              Telephone: 123-456-7890
+2024-01-31 08:16:42.214 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет гуманитарных наук
+                              Adress: ул. Гуманитарная, 2
+                              Telephone: 987-654-3210
+2024-01-31 08:16:42.214 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет медицины
+                              Adress: ул. Здоровья, 3
+                              Telephone: 555-123-4567
+2024-01-31 08:16:42.214 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет экономики
+                              Adress: ул. Финансовая, 4
+                              Telephone: 111-222-3333
+2024-01-31 08:16:42.214 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет искусств
+                              Adress: ул. Художественная, 5
+                              Telephone: 999-888-7777
+2024-01-31 08:16:42.346 [inf] Добавлен новый объект Department.
+                              Name: Информационные технологии
+                              FacultyId: 1
+2024-01-31 08:16:42.346 [inf] Добавлен новый объект Department.
+                              Name: Литература
+                              FacultyId: 2
+2024-01-31 08:16:42.346 [inf] Добавлен новый объект Department.
+                              Name: Хирургия
+                              FacultyId: 3
+2024-01-31 08:16:42.346 [inf] Добавлен новый объект Department.
+                              Name: Психология
+                              FacultyId: 2
+2024-01-31 08:16:42.346 [inf] Добавлен новый объект Department.
+                              Name: Экономика
+                              FacultyId: 4
+2024-01-31 08:16:42.377 [inf] Добавлен новый объект Teacher.
+                              Name: Иван
+                              LastName: Иванов
+                              Address: ул. Пушкина, 10
+                              Telephone: 111-222-3333
+                              DepartmentID: 1
+2024-01-31 08:16:42.377 [inf] Добавлен новый объект Teacher.
+                              Name: Елена
+                              LastName: Петрова
+                              Address: ул. Толстого, 5
+                              Telephone: 444-555-6666
+                              DepartmentID: 2
+2024-01-31 08:16:42.377 [inf] Добавлен новый объект Teacher.
+                              Name: Александр
+                              LastName: Сидоров
+                              Address: ул. Здоровья, 7
+                              Telephone: 777-888-9999
+                              DepartmentID: 3
+2024-01-31 08:16:42.377 [inf] Добавлен новый объект Teacher.
+                              Name: Мария
+                              LastName: Кузнецова
+                              Address: ул. Психологическая, 3
+                              Telephone: 123-456-7890
+                              DepartmentID: 4
+2024-01-31 08:16:42.377 [inf] Добавлен новый объект Teacher.
+                              Name: Владимир
+                              LastName: Смирнов
+                              Address: ул. Экономическая, 8
+                              Telephone: 555-666-7777
+                              DepartmentID: 5
+2024-01-31 08:17:25.685 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет инженерии
+                              Adress: ул. Инженерная, 1
+                              Telephone: 123-456-7890
+2024-01-31 08:17:25.698 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет гуманитарных наук
+                              Adress: ул. Гуманитарная, 2
+                              Telephone: 987-654-3210
+2024-01-31 08:17:25.698 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет медицины
+                              Adress: ул. Здоровья, 3
+                              Telephone: 555-123-4567
+2024-01-31 08:17:25.698 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет экономики
+                              Adress: ул. Финансовая, 4
+                              Telephone: 111-222-3333
+2024-01-31 08:17:25.698 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет искусств
+                              Adress: ул. Художественная, 5
+                              Telephone: 999-888-7777
+2024-01-31 08:17:25.825 [inf] Добавлен новый объект Department.
+                              Name: Информационные технологии
+                              FacultyId: 1
+2024-01-31 08:17:25.825 [inf] Добавлен новый объект Department.
+                              Name: Литература
+                              FacultyId: 2
+2024-01-31 08:17:25.825 [inf] Добавлен новый объект Department.
+                              Name: Хирургия
+                              FacultyId: 3
+2024-01-31 08:17:25.825 [inf] Добавлен новый объект Department.
+                              Name: Психология
+                              FacultyId: 2
+2024-01-31 08:17:25.825 [inf] Добавлен новый объект Department.
+                              Name: Экономика
+                              FacultyId: 4
+2024-01-31 08:17:25.855 [inf] Добавлен новый объект Teacher.
+                              Name: Иван
+                              LastName: Иванов
+                              Address: ул. Пушкина, 10
+                              Telephone: 111-222-3333
+                              DepartmentID: 1
+2024-01-31 08:17:25.855 [inf] Добавлен новый объект Teacher.
+                              Name: Елена
+                              LastName: Петрова
+                              Address: ул. Толстого, 5
+                              Telephone: 444-555-6666
+                              DepartmentID: 2
+2024-01-31 08:17:25.855 [inf] Добавлен новый объект Teacher.
+                              Name: Александр
+                              LastName: Сидоров
+                              Address: ул. Здоровья, 7
+                              Telephone: 777-888-9999
+                              DepartmentID: 3
+2024-01-31 08:17:25.855 [inf] Добавлен новый объект Teacher.
+                              Name: Мария
+                              LastName: Кузнецова
+                              Address: ул. Психологическая, 3
+                              Telephone: 123-456-7890
+                              DepartmentID: 4
+2024-01-31 08:17:25.855 [inf] Добавлен новый объект Teacher.
+                              Name: Владимир
+                              LastName: Смирнов
+                              Address: ул. Экономическая, 8
+                              Telephone: 555-666-7777
+                              DepartmentID: 5
+2024-01-31 08:52:10.141 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет инженерии
+                              Adress: ул. Инженерная, 1
+                              Telephone: 123-456-7890
+2024-01-31 08:52:10.155 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет гуманитарных наук
+                              Adress: ул. Гуманитарная, 2
+                              Telephone: 987-654-3210
+2024-01-31 08:52:10.155 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет медицины
+                              Adress: ул. Здоровья, 3
+                              Telephone: 555-123-4567
+2024-01-31 08:52:10.155 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет экономики
+                              Adress: ул. Финансовая, 4
+                              Telephone: 111-222-3333
+2024-01-31 08:52:10.155 [inf] Добавлен новый объект Faculty.
+                              Name: Факультет искусств
+                              Adress: ул. Художественная, 5
+                              Telephone: 999-888-7777
+2024-01-31 08:52:10.292 [inf] Добавлен новый объект Department.
+                              Name: Информационные технологии
+                              FacultyId: 1
+2024-01-31 08:52:10.292 [inf] Добавлен новый объект Department.
+                              Name: Литература
+                              FacultyId: 2
+2024-01-31 08:52:10.292 [inf] Добавлен новый объект Department.
+                              Name: Хирургия
+                              FacultyId: 3
+2024-01-31 08:52:10.292 [inf] Добавлен новый объект Department.
+                              Name: Психология
+                              FacultyId: 2
+2024-01-31 08:52:10.292 [inf] Добавлен новый объект Department.
+                              Name: Экономика
+                              FacultyId: 4
+2024-01-31 08:52:10.325 [inf] Добавлен новый объект Teacher.
+                              Name: Иван
+                              LastName: Иванов
+                              Address: ул. Пушкина, 10
+                              Telephone: 111-222-3333
+                              DepartmentID: 1
+2024-01-31 08:52:10.325 [inf] Добавлен новый объект Teacher.
+                              Name: Елена
+                              LastName: Петрова
+                              Address: ул. Толстого, 5
+                              Telephone: 444-555-6666
+                              DepartmentID: 2
+2024-01-31 08:52:10.325 [inf] Добавлен новый объект Teacher.
+                              Name: Александр
+                              LastName: Сидоров
+                              Address: ул. Здоровья, 7
+                              Telephone: 777-888-9999
+                              DepartmentID: 3
+2024-01-31 08:52:10.325 [inf] Добавлен новый объект Teacher.
+                              Name: Мария
+                              LastName: Кузнецова
+                              Address: ул. Психологическая, 3
+                              Telephone: 123-456-7890
+                              DepartmentID: 4
+2024-01-31 08:52:10.326 [inf] Добавлен новый объект Teacher.
+                              Name: Владимир
+                              LastName: Смирнов
+                              Address: ул. Экономическая, 8
+                              Telephone: 555-666-7777
+                              DepartmentID: 5
+2024-01-31 09:54:15.360 [inf] Объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A с Id=1 был изменен.
+                              Telephone: 123-456-7890 => 28829
+2024-01-31 09:56:28.954 [inf] Добавлен новый объект Department.
+                              Name: то
+                              FacultyId: 2
+2024-01-31 09:57:03.060 [inf] Добавлен новый объект Department.
+                              Name: г
+                              FacultyId: 3
+2024-01-31 10:04:12.344 [inf] Добавлен новый объект Faculty.
+                              Name: s
+                              Adress: sd
+                              Telephone: sd
+2024-01-31 10:04:41.669 [inf] Добавлен новый объект Department.
+                              Name: d
+                              FacultyId: 3
+2024-01-31 10:05:01.276 [inf] Добавлен новый объект Teacher.
+                              Name: xc
+                              LastName: xc
+                              Address: xc
+                              Telephone: xv
+                              DepartmentID: 3
+2024-01-31 10:08:16.199 [inf] Добавлен новый объект Faculty.
+                              Name: cv
+                              Adress: cv
+                              Telephone: 
+2024-01-31 10:08:21.270 [inf] Добавлен новый объект Faculty.
+                              Name: cv
+                              Adress: cv
+                              Telephone: cv
+2024-01-31 10:08:30.021 [inf] Добавлен новый объект Faculty.
+                              Name: cv
+                              Adress: cv
+                              Telephone: 
+2024-01-31 10:08:44.535 [inf] Добавлен новый объект Faculty.
+                              Name: xcv
+                              Adress: cv
+                              Telephone: 
+2024-01-31 10:09:03.815 [inf] Добавлен новый объект Teacher.
+                              Name: xvc
+                              LastName: xcv
+                              Address: xcv
+                              Telephone: xcv
+                              DepartmentID: 2
+2024-01-31 10:09:14.988 [inf] Добавлен новый объект Faculty.
+                              Name: xcv
+                              Adress: jhxcv
+                              Telephone: cx
+2024-01-31 10:09:42.913 [inf] Добавлен новый объект Faculty.
+                              Name: dvs
+                              Adress: xcv
+                              Telephone: sdv
+2024-01-31 10:10:28.461 [inf] Удален объект Faculty. Id=12
+2024-01-31 10:32:30.541 [inf] Добавлен новый объект Faculty.
+                              Name: то
+                              Adress: 
+                              Telephone: 
+2024-01-31 10:32:36.759 [inf] Объект Faculty с Id=13 был изменен.
+                              Adress:  => ва
+                              Telephone:  => 23
+2024-01-31 10:34:34.904 [inf] Объект Faculty_490DEE0A9D16CED0E538B35D284B02C288D29380B45BF0A964FDC4CAE4F7576A с Id=13 был изменен.
+                              Name: то => смсс
+                              Adress: ва => мс
+                              Telephone: 23 => см
+2024-01-31 10:34:41.574 [inf] Добавлен новый объект Faculty.
+                              Name: см
+                              Adress: см
+                              Telephone: 
+2024-01-31 10:34:44.440 [inf] Объект Faculty с Id=14 был изменен.
+                              Telephone:  => см
+2024-01-31 10:34:48.428 [inf] Добавлен новый объект Faculty.
+                              Name: см
+                              Adress: см
+                              Telephone: 
+2024-01-31 10:34:55.065 [inf] Добавлен новый объект Faculty.
+                              Name: см
+                              Adress: см
+                              Telephone: 
