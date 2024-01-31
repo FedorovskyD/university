@@ -97,7 +97,7 @@ namespace University
                     // Записываем данные в выбранный файл
                     File.WriteAllText(saveFileDialog.FileName,
                         $"Факультеты:{Environment.NewLine}{facultiesData}{Environment.NewLine}{Environment.NewLine}" +
-                        $"Кафедры:{Environment.NewLine}{departmentsData}" +
+                        $"Кафедры:{Environment.NewLine}{departmentsData}{Environment.NewLine}{Environment.NewLine}" +
                         $"Преподаватели:{Environment.NewLine}{teachersData}{Environment.NewLine}{Environment.NewLine}");
                 }
             }
@@ -204,16 +204,6 @@ namespace University
                 Log.Logger.Error($"Произошла ошибка при сохранении данных: {ex.Message}");
                 MessageBox.Show($"Произошла ошибка при сохранении данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Close();
-            }
-        }
-
-        private void DataGridViewTextBox_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char[] allowedChars = { '+', '-', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-
-            if (!allowedChars.Contains(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true; // Отменяем ввод символа, если он не принадлежит разрешенному набору
             }
         }
 
