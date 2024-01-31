@@ -319,18 +319,24 @@ namespace University
         {
             DataGridView dgv = (DataGridView)sender;
             if (!dgv.Rows[e.RowIndex].IsNewRow)
-            { 
-                if (dgv.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewComboBoxCell)
+            {
+                int columnIndex = e.ColumnIndex;
+                int rowIndex = e.RowIndex;
+
+                if (columnIndex >= 0 && columnIndex < dgv.Columns.Count && rowIndex >= 0 && rowIndex < dgv.Rows.Count)
                 {
-                    e.Cancel = true;
-                }
-                else
-                {
-                    if (MessageBox.Show("Таблица " + dgv.Name + "\nОшибка: ячейка " +
-                        e.RowIndex + "x" + e.ColumnIndex + "\n" +
-                        e.Exception.Message, "Внимание", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                    if (dgv.Rows[rowIndex].Cells[columnIndex] is DataGridViewComboBoxCell)
                     {
                         e.Cancel = true;
+                    }
+                    else
+                    {
+                        if (MessageBox.Show("Таблица " + dgv.Name + "\nОшибка: ячейка " +
+                            rowIndex + "x" + columnIndex + "\n" +
+                            e.Exception.Message, "Внимание", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                        {
+                            e.Cancel = true;
+                        }
                     }
                 }
             }
