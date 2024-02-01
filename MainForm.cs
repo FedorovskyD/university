@@ -57,10 +57,6 @@ namespace University
         protected override void OnClosing(CancelEventArgs e)
         {
             base.OnClosing(e);
-
-            dbContext?.Dispose();
-            dbContext = null;
-
             Log.CloseAndFlush();
         }
 
