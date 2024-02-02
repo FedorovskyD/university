@@ -53,13 +53,7 @@ namespace University
                 Close();
             }
         }
-
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            base.OnClosing(e);
-            Log.CloseAndFlush();
-        }
-
+        
         private void SaveToDiskButton_Click(object sender, EventArgs e)
         {
             if (dbContext == null) return;
