@@ -1,4 +1,4 @@
-﻿using Serilog;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,9 +16,9 @@ namespace University
         public MainForm()
         {
             InitializeComponent();
-            InitializeComboboxWithTabelColumnNames(dataGridViewFaculties,comboBoxWithFacultyColumnNames);
-            InitializeComboboxWithTabelColumnNames(dataGridViewDepartments,comboBoxDepartmentColumnNames);
-            InitializeComboboxWithTabelColumnNames(dataGridViewTeachers,comboBoxTeacherColumnNames);
+            InitializeComboboxWithTabelColumnNames(dataGridViewFaculties, comboBoxWithFacultyColumnNames);
+            InitializeComboboxWithTabelColumnNames(dataGridViewDepartments, comboBoxDepartmentColumnNames);
+            InitializeComboboxWithTabelColumnNames(dataGridViewTeachers, comboBoxTeacherColumnNames);
         }
         protected override void OnLoad(EventArgs e)
         {
@@ -53,7 +53,7 @@ namespace University
                 Close();
             }
         }
-        
+
         private void SaveToDiskButton_Click(object sender, EventArgs e)
         {
             if (dbContext == null) return;
@@ -128,7 +128,45 @@ namespace University
             {
                 dataGridView.CancelEdit();
             }
+
         }
+        private void DataGridViewFaculties_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+        {
+            var deletedFaculty = (Faculty)e.Row.DataBoundItem;
+
+            if (deletedFaculty.Departments.Count > 0)
+            {
+                // Удаление связанных кафедр
+                foreach (var department in deletedFaculty.Departments.ToList())
+                {
+                    if (department.Teachers.Count > 0)
+                    {
+                        // Удаление связанных учителей
+                        foreach (var teacher in department.Teachers.ToList())
+                        {
+                            dbContext.Teachers.Remove(teacher);
+                        }
+
+                    }
+                    dbContext.Departments.Remove(department);
+                }
+              
+            }
+        }
+
+        private void DataGridViewDepartments_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+        {
+            var deletedDepartment = (Department)e.Row.DataBoundItem;
+            if (deletedDepartment.Teachers.Count > 0)
+            {
+                // Удаление связанных учителей
+                foreach (var teacher in deletedDepartment.Teachers.ToList())
+                {
+                    dbContext.Teachers.Remove(teacher);
+                }
+            }
+        }
+
         #endregion
 
         #region Валидация записей
@@ -187,9 +225,10 @@ namespace University
             //Сохранение записей, когда строка прошла валидацию
             try
             {
-                dbContext?.SaveChanges();
+                dbContext.SaveChanges();
+                ((DataGridView)sender).Invalidate();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Log.Logger.Error($"Произошла ошибка при сохранении данных: {ex.Message}");
                 MessageBox.Show($"Произошла ошибка при сохранении данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -265,7 +304,7 @@ namespace University
                 {
                     foreach (DataGridViewCell cell in row.Cells)
                     {
-                        if (cell.Value != null && cell.Value.ToString().ToLower().Contains(searchText) )
+                        if (cell.Value != null && cell.Value.ToString().ToLower().Contains(searchText))
                         {
                             row.Visible = true;
                             break; // Выход из цикла при первом совпадении
@@ -335,6 +374,11 @@ namespace University
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void UserDeletedRow(object sender, DataGridViewRowEventArgs e)
+        {
+            dbContext?.SaveChanges();
         }
     }
 }
